@@ -1,0 +1,32 @@
+.card {
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+}
+.card img {
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.card button{
+    display:none;
+    background-color:#7c4b44;
+    color:#fff;
+}
+.card:hover {
+  transform: translateX(-40px);
+  transform: translateY(-30px);
+  transition: 0.5s;
+  border: none;
+  border-bottom: 5px solid #7c4b44;
+  border-top: 5px solid #7c4b44;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size:20px;
+  cursor: pointer;
+}
+
+
+
+.card:hover button{
+    display: block;
+}
